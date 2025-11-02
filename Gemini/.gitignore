@@ -1,0 +1,18 @@
+# Ignore environment variables and secrets
+.env
+
+# Ignore compiled class files
+*.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE / editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs or backups
+*.log
+*.bak
