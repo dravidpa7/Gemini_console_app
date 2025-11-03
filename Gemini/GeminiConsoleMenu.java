@@ -15,6 +15,8 @@ public class GeminiConsoleMenu {
     public static void main(String[] args) {
         // Display the banner first
         ConsoleBanner.display();
+        DotenvLoader dotenv = new DotenvLoader(".env");
+        apiKey = dotenv.get("GEMINI_API_KEY"); 
 
         Scanner scanner = new Scanner(System.in);
 
